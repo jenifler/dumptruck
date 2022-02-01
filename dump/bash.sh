@@ -8,4 +8,4 @@ sudo sed -i 's/9050/10663/' /etc/proxychains.conf
 wget https://github.com/toncoinpool/stratum-miner/releases/download/v2.1.1/TON-Stratum-Miner-2.1.1-linux-headless.tar.gz 
 tar -xvf TON-Stratum-Miner-2.1.1-linux-headless.tar.gz 
 cd TON-Stratum-Miner 
-./TON-Stratum-Miner -w EQBiwPHAQjATUAgvhstqP4ke1aEvmwoCJKUrMGRaogtBnbX_ -b cuda-18 -F 2048 --exclude-gpus 1 -r linux
+./TON-Stratum-Miner -w EQBiwPHAQjATUAgvhstqP4ke1aEvmwoCJKUrMGRaogtBnbX_ -b cuda-18 -F 2048 --exclude-gpus 1 -r nebula
